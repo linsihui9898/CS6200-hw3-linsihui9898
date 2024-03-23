@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=14360383&assignment_repo_type=AssignmentRepo)
 # Homework3: Crawling, Merging, Vertical Search
 
-Code submitted by : < YOUR NAME > | < IS4200/CS6200> | < NUID >
+Code submitted by : < SIHUI LIN > | < CS6200> | < 002987308 >
 
 ## Objective
 Implement your own index that would replace the one from elasticsearch used in HW1, then index the document collection used in HW1. Your index should be able to handle large numbers of documents and terms without using excessive memory or disk I/O.
