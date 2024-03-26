@@ -154,9 +154,6 @@ def crawl():
             if link not in visited and link not in frontier:
                 frontier.append(link)  # Add new links to the frontier
 
-        # Optional: implement partial sorting or prioritization of the frontier here
-
-        # save the crawler's state: every 500 URLs visited
         if len(visited) % 500 == 0:
             with open('crawler_state.pkl', 'wb') as f:
                 pickle.dump((list(frontier), list(visited)), f)
